@@ -27,6 +27,8 @@ git push -u origin master
 # 关联后简要提交
 git push origin master
 
+# 本地分支项目名与 origin 源项目名不同时 增加参数
+git push origin master --allow-unrelated-histories
 
 # 分支
 
