@@ -1,0 +1,16 @@
+#激活遇到奇怪问题（管理员权限下操作）
+```shell
+
+#卸载密匙
+PS C:\Windows\system32> slmgr /upk
+#清理注册表密钥
+PS C:\Windows\system32> slmgr /cpky
+
+#注册新密钥
+PS C:\Windows\system32> slmgr /ipk AAAAA-AAAAA-AAAAA-AAAAA-AAAAA
+#注册服务
+PS C:\Windows\system32> slmgr /skms XX.XXXX.XXX
+#生效
+PS C:\Windows\system32> slmgr /ato
+
+```
